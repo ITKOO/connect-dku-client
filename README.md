@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# 커넥트 DKU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. 추진배경
+코로나 시대가 끝난 후 비대면 수업에서 완전한 대면 학업 조건으로 전환되면서<br>
+SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 멘토멘티 프로그램을 기획했다.<br><br>
 
-## Available Scripts
+멘토멘티 프로그램은 고학년 선배들과, 신입생들이 한 조를 이뤄, 주어진 미션을 진행하고 <br>
+친목도모를 유도하는 취지의 프로그램이다.<br>
 
-In the project directory, you can run:
 
-### `npm start`
+현 프로젝트 팀원 모두 멘토 소속으로, 멘토멘티 프로그램을 진행하며 발생한<br>  
+<ins>"수작업으로 진행되는 미션 체크", "시스템 부재로 인한 카카오톡 사용", "기준 없이 랜덤으로 이뤄지는 멘토멘티 매칭" 등의 문제를 발견했다.</ins><br>
+이러한 문제점을 개선해 편리한 멘토멘티 프로그램을 진행하고자 해당 프로젝트를 기획하게 되었다.<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<hr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. 목표 및 프로젝트 요약
+해당 서비스의 이름은 <ins>"커넥트 DKU"</ins>이며,<br>
+<b>단국대 SW융합대학 학생들을 위한 멘토멘티</b> 앱이다.<br><br>
 
-### `npm test`
+2024년 SW융합대학 멘토멘티 프로그램 운영시 해당 서비스를 사용해 프로그램을 진행할 수 있도록 하는 것이 1차 목표이며,<br> 
+더 나아가 단국대학교에서 진행하는 여러 행사를 진행하고 관리하는 어플리케이션으로 발전시키는것이 최종 목표이다.<br><br>
+![스크린샷 2023-04-29 오전 12 49 18](https://user-images.githubusercontent.com/31758135/235194466-ad279033-27c9-448b-92f7-b7734613864a.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `npm run build`
+### 3. 시스템 설계도 및 WBS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![스크린샷 2023-04-29 오전 12 51 15](https://user-images.githubusercontent.com/31758135/235194901-b2802126-1e3e-4417-849b-e5756c19698c.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![스크린샷 2023-04-29 오전 12 51 43](https://user-images.githubusercontent.com/31758135/235194994-196a9cbe-e651-4808-9e69-c90f5c05480e.png)
