@@ -1,9 +1,11 @@
 import "./css/NextButton.css";
 
-function NextButton() {
+function NextButton({ clickEvent }) {
 	return (
 		<div>
-			<button className="NextBtn">다음</button>
+			<button className="NextBtn" onClick={clickEvent}>
+				다음
+			</button>
 		</div>
 	);
 }
