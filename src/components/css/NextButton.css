@@ -1,0 +1,15 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+button {
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	padding: 50px;
+	position: absolute;
+	font-family: "Pretendard Variable";
+	font-size: 1.3rem;
+	font-weight: 900;
+	background-color: #0f0aef;
+	color: white;
+	border: none;
+}
