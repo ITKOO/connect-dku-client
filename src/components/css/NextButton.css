@@ -1,11 +1,11 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 
-button {
+.NextBtn {
 	width: 100%;
 	bottom: 0px;
 	left: 0px;
 	padding: 50px;
-	position: absolute;
+	position: fixed;
 	font-family: "Pretendard Variable";
 	font-size: 1.3rem;
 	font-weight: 900;

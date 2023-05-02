@@ -1,0 +1,72 @@
+:root {
+	--vh: 100%;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-grey: #757575;
+	--color-lightgrey: #d4d6da;
+	--color-main: #0f0aef;
+}
+
+p {
+	margin-top: 10px;
+}
+
+.SignUp {
+	width: 100%;
+	text-align: center;
+}
+
+.title {
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.description {
+	color: var(--color-grey);
+	text-align: center;
+}
+
+.SignUp-form {
+	margin-top: 50px;
+}
+
+.input {
+	width: 80%;
+	height: 20px;
+	background-color: var(--color-white);
+	border: 1px solid var(--color-lightgrey);
+	border-radius: 3.5px;
+	padding: 15px 15px;
+	margin: 10px 0;
+}
+
+.input-gender > input {
+	height: 50px;
+	color: var(--color-lightgrey);
+	gap: 10px;
+}
+
+.input-gender > input:hover {
+	color: var(--color-main);
+	border: 1px solid var(--color-main);
+}
+
+.input-phone > input[type="button"] {
+	background-color: var(--color-lightgrey);
+	border: none;
+	width: 40%;
+	height: 50px;
+	border-radius: 3.5px;
+}
+
+.phonenum {
+	margin-right: 20px;
+}
+
+.input-gender,
+.input-phone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -3,7 +3,7 @@ import "./css/NextButton.css";
 function NextButton() {
 	return (
 		<div>
-			<button>다음</button>
+			<button className="NextBtn">다음</button>
 		</div>
 	);
 }
