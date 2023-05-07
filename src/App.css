@@ -61,14 +61,15 @@
 
 .Login-icon img {
     width: 100%;
-    height: 55vh;
+    height: 135vw;
     object-fit: cover;
     object-position: top;
 }
 
 .Login-buttons {
-    position: relative;
-    top: -10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 12vh;
 }
 
 .Login-buttons .kakao {
@@ -82,13 +83,13 @@
 }
 
 .Login-buttons button {
-    width: 93%;
+    width: 85%;
     text-align: center;
     padding: 15px;
     font-size: 0.95rem;
     border: none;
     position: relative;
-    left: -5px;
+    right: 7px;
     margin-bottom: 10px;
     border-radius: 4px;
 }
