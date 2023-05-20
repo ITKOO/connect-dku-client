@@ -1,0 +1,19 @@
+.standby {
+    position: relative;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.standbyBtn {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.standbyLoading {
+    display: inline-block;
+    width: 300px;
+    margin-top: 50px;
+}

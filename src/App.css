@@ -43,3 +43,62 @@ html, body, #root {
     height: 100%;
     font-family: 'Pretendard-Light';
 }
+
+.page {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 24px !important;
+}
+
+.btnPrimary {
+    background-color: #0F0AEF;
+    color: white;
+}
+
+button {
+    display: inline-flex;
+    height: 55px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 0px 16px !important;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.blueTxt {
+    color: #0F0AEF;
+}
+
+.boldTxt {
+    font-family: 'Pretendard-Bold';
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.wideLineHeight {
+    line-height: 150%;
+}
+
+.ftLg {
+    font-size: 1.5rem;
+}
+
+.ftM {
+    font-size: 1.3rem;
+}
+
+.ftSm {
+    font-size: 1.1rem;
+}
