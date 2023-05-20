@@ -1,0 +1,15 @@
+.SignIn {
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/img/login-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #0f0aef
+}
+
+.SnsButtons {
+    padding-right: 24px;
+    padding-left: 24px;
+    position: absolute;
+    bottom: 30px;
+}
