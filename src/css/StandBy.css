@@ -5,13 +5,6 @@
     text-align: center;
 }
 
-.standbyBtn {
-    display: block;
-    width: 100%;
-    position: absolute;
-    bottom: 30px;
-}
-
 .standbyLoading {
     display: inline-block;
     width: 300px;

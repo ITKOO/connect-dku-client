@@ -1,0 +1,20 @@
+.result {
+    position: relative;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.resultIcon {
+    display: inline-block;
+    width: 270px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.resultTeamType {
+    position: relative;
+    bottom: 280px;
+    right: 15px;
+    color: white;
+}

@@ -75,8 +75,19 @@ button {
     box-sizing: border-box;
 }
 
+.bottomBtn {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+
 .blueTxt {
     color: #0F0AEF;
+}
+
+.grayText {
+    color: #8D939D;
 }
 
 .boldTxt {
@@ -91,6 +102,14 @@ button {
     line-height: 150%;
 }
 
+.ft2Xlg {
+    font-size: 2.5rem;
+}
+
+.ftXlg {
+    font-size: 2rem;
+}
+
 .ftLg {
     font-size: 1.5rem;
 }
@@ -101,4 +120,16 @@ button {
 
 .ftSm {
     font-size: 1.1rem;
+}
+
+.ftTsm {
+    font-size: 0.9rem;
+}
+
+.mt1 {
+    margin-top: 10px;
+}
+
+.mt2 {
+    margin-top: 20px;
 }
