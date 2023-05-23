@@ -7,7 +7,7 @@ const SnsButton = ({type}) => {
   const buttonColor = isKakao ? 'yellow' : 'green';
   const buttonImgUrl = isKakao ? 'kakao_logo.png' : 'naver_logo.png';
   const buttonText = isKakao ? '카카오' : '네이버';
-  const linkPage = isKakao ? '' : '/standby';
+  const linkPage = isKakao ? '' : '/intro';
 
   // TODO 추후 config 파일 분리
   const REST_API_KEY = 'e0c2a8eb689189ed5aee477f8677df37';
