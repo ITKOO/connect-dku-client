@@ -1,115 +1,113 @@
 :root {
-    --vh: 100%;
-    --color-white: #ffffff;
-    --color-black: #000000;
-    --color-grey: #757575;
-    --color-lightgrey: #d4d6da;
-    --color-main: #0f0aef;
+	--vh: 100%;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-grey: #757575;
+	--color-lightgrey: #d4d6da;
+	--color-main: #0f0aef;
 }
 
 p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
-.SignUp {
-    width: 100%;
-    text-align: center;
-}
-
-.title {
-    font-size: 1.8rem;
-    text-align: center;
-}
-
-.description {
-    color: var(--color-grey);
-    text-align: center;
+.signup {
+	position: relative;
+	height: 100%;
+	padding-top: 50px;
+	text-align: center;
 }
 
 .SignUp-form {
-    width: 80vw;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 50px;
-    align-items: center;
+	width: 80vw;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 50px;
+	align-items: center;
 }
 
 .input {
-    width: 100%;
-    height: 20px;
-    background-color: var(--color-white);
-    border: 1px solid var(--color-lightgrey);
-    border-radius: 3.5px;
-    padding: 15px 15px;
-    margin: 10px 0;
+	width: 100%;
+	height: 20px;
+	background-color: var(--color-white);
+	border: 1px solid var(--color-lightgrey);
+	border-radius: 3.5px;
+	padding: 10px 0;
+	margin: 10px 0;
 }
 
 .input-gender > input {
-    width: 45%;
-    height: 50px;
-    color: var(--color-lightgrey);
+	width: 45%;
+	height: 40px;
+	color: var(--color-lightgrey);
 }
 
-.input-gender > input:hover {
-    color: var(--color-main);
-    border: 1px solid var(--color-main);
+.input-gender > input:hover,
+.input-gender > input:focus {
+	color: var(--color-main);
+	border: 1px solid var(--color-main);
+	transition: 0.2s;
 }
 
 .input-phone > input[type="button"] {
-    background-color: var(--color-lightgrey);
-    border: none;
-    width: 40%;
-    height: 50px;
-    border-radius: 3.5px;
+	background-color: var(--color-lightgrey);
+	border: none;
+	width: 40%;
+	height: 40px;
+	border-radius: 3.5px;
+}
+
+.input-phone > input[type="text"] {
+	width: 50%;
 }
 
 .phonenum {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .input-gender,
 .input-phone {
-    width: 109%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .modal {
-    animation: fadeInUp 0.5s;
+	animation: fadeInUp 0.5s;
 }
 
 .modal-title {
-    font-family: "Pretendard Variable";
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin: 30px 20px;
-    position: fixed;
+	font-family: "Pretendard Variable";
+	font-weight: 900;
+	font-size: 1.8rem;
+	margin: 30px 20px;
+
+	display: block;
 }
 
 .mento-types {
-    display: flex;
-    margin-top: 100px;
+	display: flex;
 }
 
 .mento-types > img {
-    width: 232px;
-    height: 311px;
-    border-radius: 0;
-    object-fit: fill;
-    margin-right: 10px;
+	width: 100%;
+	height: 300px;
+	border-radius: 0;
+	object-fit: fill;
+	margin-right: 10px;
 }
 
 @keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translateZ(0);
+	}
 }

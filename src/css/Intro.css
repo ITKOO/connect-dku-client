@@ -1,68 +1,44 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 
 :root {
-    --vh: 100%;
-    --color-white: #ffffff;
-    --color-black: #000000;
-    --color-grey: #757575;
-    --color-main: #0f0aef;
+	--vh: 100%;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-grey: #757575;
+	--color-main: #0f0aef;
 }
 
-.Intro {
-    width: 100%;
-    text-align: center;
+p {
+	margin-top: 10px;
 }
 
-.title {
-    margin-top: 150px;
-    margin-bottom: 30px;
-    font-weight: 900;
-}
-
-.Intro-greeting {
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-}
-
-.description {
-    font-weight: 600;
-    color: var(--color-main);
-}
-
-.description-sub {
-    margin-top: 5px;
-}
-
-.sub {
-    color: var(--color-grey);
+.intro {
+	position: relative;
+	height: 100%;
+	padding-top: 50px;
+	text-align: center;
 }
 
 .slider {
-    display: flex;
-    position: relative;
-    margin: 0;
-    width: 100%;
+	display: flex;
+	position: relative;
+	margin: 0;
+	width: 100%;
 }
 
 .profiles {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    animation: loop 60s linear infinite;
-}
-
-.Avatar {
-    margin: 10px 10px;
-    transition: transform 0.5s ease;
-    object-fit: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	animation: loop 60s linear infinite;
 }
 
 @keyframes loop {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
 }

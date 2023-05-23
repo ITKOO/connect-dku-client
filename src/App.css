@@ -1,139 +1,150 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-html, body, #root {
-    height: 100%;
-}
-
-
-@font-face {
-    font-family: 'GmarketSansLight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+html,
+body,
+#root {
+	height: 100%;
 }
 
 @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	font-family: "GmarketSansLight";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+		format("woff");
 }
 
 @font-face {
-    font-family: 'GmarketSansBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+	font-family: "GmarketSansMedium";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+		format("woff");
 }
 
 @font-face {
-    font-family: 'Pretendard-Light';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+	font-family: "GmarketSansBold";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+		format("woff");
 }
 
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+	font-family: "Pretendard-Light";
+	src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+		format("woff");
 }
 
 @font-face {
-    font-family: 'Pretendard-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+	font-family: "Pretendard-Regular";
+	src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+		format("woff");
+}
+
+@font-face {
+	font-family: "Pretendard-Bold";
+	src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+		format("woff");
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .App {
-    width: 100%;
-    height: 100%;
-    font-family: 'Pretendard-Light';
+	width: 100%;
+	height: 100%;
+	font-family: "Pretendard-Light";
 }
 
 .page {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 0 24px !important;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 24px !important;
 }
 
 .btnPrimary {
-    background-color: #0F0AEF;
-    color: white;
+	background-color: #0f0aef;
+	color: white;
 }
 
 button {
-    display: inline-flex;
-    height: 55px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    border-radius: 8px;
-    text-decoration: none;
-    padding: 0px 16px !important;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    vertical-align: middle;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    box-sizing: border-box;
+	display: inline-flex;
+	height: 55px;
+	font-weight: 700;
+	font-size: 1.1rem;
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 0px 16px !important;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	vertical-align: middle;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
 }
 
 .bottomBtn {
-    display: block;
-    width: 100%;
-    position: absolute;
-    bottom: 30px;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 30px;
 }
 
 .blueTxt {
-    color: #0F0AEF;
+	color: #0f0aef;
 }
 
 .grayText {
-    color: #8D939D;
+	color: #8d939d;
+}
+
+.lightGrayTxt {
+	color: #757575;
 }
 
 .boldTxt {
-    font-family: 'Pretendard-Bold';
+	font-family: "Pretendard-Bold";
 }
 
 .textCenter {
-    text-align: center;
+	text-align: center;
 }
 
 .wideLineHeight {
-    line-height: 150%;
+	line-height: 150%;
 }
 
 .ft2Xlg {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .ftXlg {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .ftLg {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .ftM {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 
 .ftSm {
-    font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 
 .ftTsm {
-    font-size: 0.9rem;
+	font-size: 0.9rem;
 }
 
 .mt1 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .mt2 {
-    margin-top: 20px;
+	margin-top: 20px;
 }
