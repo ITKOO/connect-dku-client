@@ -28,29 +28,61 @@ function SignUp() {
 
 				<form className="SignUp-form">
 					<div>
-						<input type="text" placeholder="  이름" className="input" />
+						<input
+							type="text"
+							placeholder="  이름"
+							className="input"
+						/>
 					</div>
 					<div>
-						<input type="text" placeholder="  학번" className="input"></input>
+						<input
+							type="text"
+							placeholder="  학번"
+							className="input"
+						></input>
 					</div>
 					<div className="input-gender">
-						<input type="button" value="남자" className="input male" />
-						<input type="button" value="여자" className="input female" />
+						<input
+							type="button"
+							value="남자"
+							className="input male"
+						/>
+						<input
+							type="button"
+							value="여자"
+							className="input female"
+						/>
 					</div>
 					<div>
-						<input type="text" placeholder="  나이" className="input"></input>
+						<input
+							type="text"
+							placeholder="  나이"
+							className="input"
+						></input>
 					</div>
 					<div className="input-phone">
-						<input type="text" placeholder="  휴대폰 번호" className="input" />
-						<input type="button" value="인증받기" className="input" />
+						<input
+							type="text"
+							placeholder="  휴대폰 번호"
+							className="input"
+						/>
+						<input
+							type="button"
+							value="인증받기"
+							className="input"
+						/>
 					</div>
 					<div>
-						<input type="text" placeholder="  인증번호" className="input" />
+						<input
+							type="text"
+							placeholder="  인증번호"
+							className="input"
+						/>
 					</div>
 				</form>
 
 				<button
-					className="btnPrimary bottomBtn"
+					className="btnPrimary bottomBtn stickyBtn"
 					onClick={() => {
 						setActiveModal(true);
 						console.log(activeModal);
