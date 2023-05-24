@@ -85,7 +85,6 @@ function SignUp() {
 					className="btnPrimary bottomBtn stickyBtn"
 					onClick={() => {
 						setActiveModal(true);
-						console.log(activeModal);
 					}}
 				>
 					다음
@@ -107,7 +106,7 @@ function SignUp() {
 						},
 						content: {
 							position: "absolute",
-							top: "30%",
+							top: "35%",
 							left: 0,
 							right: 0,
 							bottom: 0,
@@ -121,13 +120,22 @@ function SignUp() {
 						},
 					}}
 				>
-					<div className="modal-title">원하는 멘토가 있나요?</div>
+					<div className="boldTxt wideLineHeight ftLg stickyTxt">
+						원하는 멘토가 있나요?
+					</div>
 					<div className="mento-types">
 						{mento_types.map((source, idx) => (
 							<img src={source} className={idx} />
 						))}
 					</div>
-					<AcceptButton clickEvent={() => setActiveModal(false)} />
+					<button
+						className="btnPrimary bottomBtn stickyBtn"
+						onClick={() => {
+							setActiveModal(false);
+						}}
+					>
+						확인
+					</button>
 				</Modal>
 			</div>
 		</div>

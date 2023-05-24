@@ -93,6 +93,14 @@ button {
 	bottom: 30px;
 }
 
+.stickyBtn {
+	position: fixed;
+	width: 85%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
 .blueTxt {
 	color: #0f0aef;
 }
