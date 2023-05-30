@@ -1,0 +1,10 @@
+.members {
+	position: relative;
+	height: 100%;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.memberList {
+	margin-top: 50px;
+}

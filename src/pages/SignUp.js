@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/SignUp.css";
 import Modal from "react-modal";
+import { Link } from "react-router-dom";
 
 function SignUp() {
 	const [activeModal, setActiveModal] = useState(false);
@@ -209,14 +210,16 @@ function SignUp() {
 							/>
 						))}
 					</div>
-					<button
-						className="btnPrimary bottomBtn stickyBtn"
-						onClick={() => {
-							setActiveModal(false);
-						}}
-					>
-						확인
-					</button>
+					<Link to="/standby">
+						<button
+							className="btnPrimary bottomBtn stickyBtn"
+							onClick={() => {
+								setActiveModal(false);
+							}}
+						>
+							확인
+						</button>
+					</Link>
 				</Modal>
 			</div>
 		</div>

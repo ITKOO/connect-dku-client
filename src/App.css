@@ -121,6 +121,10 @@ button {
 	text-align: center;
 }
 
+.textLeft {
+	text-align: left;
+}
+
 .wideLineHeight {
 	line-height: 150%;
 }

@@ -9,6 +9,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Intro from "./pages/Intro";
 import Result from "./pages/Result";
+import Members from "./pages/Members";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
 			<Route path="intro" element={<Intro />}></Route>
 			<Route path="standby" element={<StandBy />}></Route>
 			<Route path="result" element={<Result />}></Route>
+			<Route path="members" element={<Members />}></Route>
 		</Routes>
 	</BrowserRouter>
 );

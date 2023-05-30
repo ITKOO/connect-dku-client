@@ -1,0 +1,19 @@
+.member {
+	display: flex;
+	width: 90%;
+	height: 70%;
+}
+
+.textMiddle {
+	vertical-align: middle;
+	margin: auto;
+}
+
+.paddingText {
+	padding: 5px;
+}
+
+.smallAvatar {
+	width: 30% !important;
+	height: 30% !important;
+}
