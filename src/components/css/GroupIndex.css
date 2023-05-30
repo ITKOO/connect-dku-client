@@ -1,0 +1,18 @@
+.index {
+	padding: 3%;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.indexTxt {
+	margin-right: 3%;
+	padding: 3%;
+}
+
+.unselectedTxt {
+	color: rgb(188, 188, 188);
+}
+
+.selectedIndex {
+	color: black;
+	border-bottom: 5px solid #0f0aef;
+}
