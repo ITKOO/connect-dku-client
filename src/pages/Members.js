@@ -3,6 +3,7 @@ import "../css/Members.css";
 import { Link } from "react-router-dom";
 import GroupIndex from "../components/GroupIndex";
 import Member from "../components/Member";
+import FloatingBtn from "../components/FloatingBtn";
 
 const Members = () => {
 	const membersData = [
@@ -46,6 +47,9 @@ const Members = () => {
 					))}
 				</div>
 			</div>
+			<Link to="/write">
+				<FloatingBtn />
+			</Link>
 		</div>
 	);
 };

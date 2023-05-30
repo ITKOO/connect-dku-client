@@ -13,7 +13,11 @@ const Write = () => {
 		<div className="pageNoPadding ftM">
 			<div className="write">
 				<div className="headerWrite">
-					<button className="noneBorder regularTxt ftM">취소</button>
+					<Link to="/members">
+						<button className="noneBorder regularTxt ftM">
+							취소
+						</button>
+					</Link>
 					<select name="postType" className="noneBorder ftM boldTxt">
 						<option value="미션기록">미션기록</option>
 						<option value="잡담">잡담</option>
