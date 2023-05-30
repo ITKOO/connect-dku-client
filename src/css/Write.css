@@ -1,0 +1,76 @@
+.pageNoPadding {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 0 !important;
+}
+
+.write {
+	position: relative;
+	height: 100%;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.headerWrite {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto 0 auto 0;
+	padding-bottom: 3%;
+	border-bottom: 0.5px solid #c6c9cd;
+}
+
+.contentHeaderWrite {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10%;
+	padding: 0 24px !important;
+}
+
+.noneBorder {
+	background-color: white;
+	border: none;
+}
+
+.regularTxt {
+	font-weight: 400;
+}
+
+.missionType {
+	width: 100%;
+	padding: 3%;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.checkboxSet {
+	width: 80%;
+	text-align: right;
+}
+
+.checkboxLabel {
+	margin-left: 5%;
+}
+
+.writeContentDiv {
+	padding: 0 24px !important;
+	height: 60vh;
+}
+
+.writeContent {
+	width: 100%;
+	height: 90%;
+	margin-top: 10%;
+}
+
+.medias {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	border-top: 0.5px solid #c6c9cd;
+	padding: 5%;
+	bottom: 0;
+}

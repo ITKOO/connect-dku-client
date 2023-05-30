@@ -10,6 +10,7 @@ import SignUp from "./pages/SignUp";
 import Intro from "./pages/Intro";
 import Result from "./pages/Result";
 import Members from "./pages/Members";
+import Write from "./pages/Write";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
 			<Route path="standby" element={<StandBy />}></Route>
 			<Route path="result" element={<Result />}></Route>
 			<Route path="members" element={<Members />}></Route>
+			<Route path="write" element={<Write />}></Route>
 		</Routes>
 	</BrowserRouter>
 );
