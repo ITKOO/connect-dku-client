@@ -33,10 +33,10 @@ function Intro() {
 
 				<div className="profiles">
 					{images.map((source, idx) => (
-						<Avatar ImageSrc={source} size="100px" />
+						<Avatar imageSrc={source} size="100px" />
 					))}
 					{images.map((source, idx) => (
-						<Avatar ImageSrc={source} size="100px" />
+						<Avatar imageSrc={source} size="100px" />
 					))}
 				</div>
 

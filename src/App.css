@@ -113,6 +113,10 @@ button {
 	color: #757575;
 }
 
+.whiteTxt {
+	color: white;
+}
+
 .boldTxt {
 	font-family: "Pretendard-Bold";
 }

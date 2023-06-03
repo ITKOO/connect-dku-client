@@ -1,13 +1,13 @@
 import "./css/Avatar.css";
 
-function Avatar({ ImageSrc, size }) {
+function Avatar({ imageSrc, size }) {
 	const imageSize = {
 		width: size,
 		height: size,
 	};
 	return (
 		<>
-			<img className="Avatar" src={ImageSrc} style={imageSize} />
+			<img className="Avatar" src={imageSrc} style={imageSize} />
 		</>
 	);
 }

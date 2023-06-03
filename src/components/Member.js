@@ -1,7 +1,7 @@
 import Avatar from "./Avatar";
 import "./css/Member.css";
 
-function Member({ ImageSrc, name, isMento, assignDate }) {
+function Member({ imageSrc, name, isMento, assignDate }) {
 	const gap5px = {
 		marginRight: "5px",
 	};
@@ -11,7 +11,7 @@ function Member({ ImageSrc, name, isMento, assignDate }) {
 
 	return (
 		<div className="member">
-			<Avatar ImageSrc={ImageSrc} size="25%" />
+			<Avatar imageSrc={imageSrc} size="15%" />
 			<div className="textLeft textMiddle " style={gap3}>
 				<div className="paddingText">
 					<span className=" boldTxt" style={gap5px}>
