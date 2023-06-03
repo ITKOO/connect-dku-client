@@ -1,0 +1,13 @@
+.introducingTxt {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	box-shadow: 0px 4px 12px rgb(242, 242, 242);
+	border-radius: 5px;
+}
+
+.icon {
+	margin-right: 5px;
+}

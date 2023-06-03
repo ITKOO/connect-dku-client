@@ -5,6 +5,7 @@ import GroupIndex from "../components/GroupIndex";
 import Member from "../components/Member";
 import FloatingBtn from "../components/FloatingBtn";
 import GroupProfile from "../components/GroupProfile";
+import GroupIntroduce from "../components/GroupIntroduce";
 
 const Members = () => {
 	const membersData = [
@@ -47,6 +48,7 @@ const Members = () => {
 				groupName="개발을 사랑하는 1팀"
 				groupMembers="4"
 			/>
+			<GroupIntroduce />
 			<div className="members">
 				<GroupIndex selectedIndex="member" />
 				<div className="memberList">
