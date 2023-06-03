@@ -11,6 +11,8 @@ import Intro from "./pages/Intro";
 import Result from "./pages/Result";
 import Members from "./pages/Members";
 import Write from "./pages/Write";
+import MissionPosts from "./pages/MissionPosts";
+import ChatterPosts from "./pages/ChatterPosts";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +24,8 @@ root.render(
 			<Route path="intro" element={<Intro />}></Route>
 			<Route path="standby" element={<StandBy />}></Route>
 			<Route path="result" element={<Result />}></Route>
+			<Route path="mission-posts" element={<MissionPosts />}></Route>
+			<Route path="chatter-posts" element={<ChatterPosts />}></Route>
 			<Route path="members" element={<Members />}></Route>
 			<Route path="write" element={<Write />}></Route>
 		</Routes>

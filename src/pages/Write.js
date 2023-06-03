@@ -13,7 +13,7 @@ const Write = () => {
 		<div className="pageNoPadding ftM">
 			<div className="write">
 				<div className="headerWrite">
-					<Link to="/members">
+					<Link to="/mission-posts">
 						<button className="noneBorder regularTxt ftM">
 							취소
 						</button>

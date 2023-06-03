@@ -21,7 +21,7 @@ const Result = () => {
 					<br />
 					<span className="ft2Xlg boldTxt">1팀</span>
 				</div>
-				<Link to="/members">
+				<Link to="/mission-posts">
 					<button className="btnPrimary bottomBtn">
 						1팀 그룹으로 이동
 					</button>

@@ -1,0 +1,9 @@
+.postContent {
+	width: 90%;
+	margin: 10px 20px;
+}
+
+.postImage {
+	width: 60%;
+	border-radius: 5px;
+}

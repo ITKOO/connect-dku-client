@@ -121,6 +121,10 @@ button {
 	font-family: "Pretendard-Bold";
 }
 
+.regularTxt {
+	font-weight: 600;
+}
+
 .textCenter {
 	text-align: center;
 }
