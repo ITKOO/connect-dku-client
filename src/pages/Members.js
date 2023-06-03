@@ -48,7 +48,7 @@ const Members = () => {
 				groupName="개발을 사랑하는 1팀"
 				groupMembers="4"
 			/>
-			<GroupIntroduce />
+			<GroupIntroduce introducingText="우리는 개발 러버들!" />
 			<div className="members">
 				<GroupIndex selectedIndex="member" />
 				<div className="memberList">
