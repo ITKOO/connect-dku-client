@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "../css/Members.css";
 import { Link } from "react-router-dom";
 import GroupIndex from "../components/GroupIndex";
@@ -6,40 +7,49 @@ import Member from "../components/Member";
 import FloatingBtn from "../components/FloatingBtn";
 import GroupProfile from "../components/GroupProfile";
 import GroupIntroduce from "../components/GroupIntroduce";
+import moment from "moment";
 
 const Members = () => {
-	const membersData = [
-		{
-			name: "구지원",
-			isMento: false,
-			imageSrc: "/img/profile2.png",
-			assignDate: "2023년 9월 9일 가입",
-		},
-		{
-			name: "박현찬",
-			isMento: true,
-			imageSrc: "/img/profile4.png",
-			assignDate: "2023년 9월 9일 가입",
-		},
-		{
-			name: "김준영",
-			isMento: true,
-			imageSrc: "/img/profile1.jpg",
-			assignDate: "2023년 9월 8일 가입",
-		},
-		{
-			name: "윤태호",
-			isMento: false,
-			imageSrc: "/img/profile3.png",
-			assignDate: "2023년 9월 8일 가입",
-		},
-		{
-			name: "윤태호",
-			isMento: false,
-			imageSrc: "/img/profile3.png",
-			assignDate: "2023년 9월 8일 가입",
-		},
-	];
+	const [membersData, setMembersData] = useState([]);
+
+	useEffect(() => {
+		async function fetchData() {
+			try {
+				var members = [];
+
+				for (var userId = 1; userId < 5; userId++) {
+					var member = axios
+						.get(`http://itkoo.kr:8080/api/user/${userId}`)
+						.then((response) => {
+							var memberData = {
+								name: response.data["name"],
+								userType: response.data["userType"],
+								assignDate: moment(
+									response.data["createdAt"]
+								).format("YYYY년 MM월 DD일"),
+								imageSrc: "/img/profile2.png",
+							};
+							return memberData;
+						})
+						.catch((error) => {
+							console.log(error);
+							return null;
+						});
+					members.push(member);
+				}
+
+				const resolvedPromises = await Promise.all(members);
+				setMembersData(
+					resolvedPromises.filter((data) => data !== null)
+				);
+			} catch (error) {
+				console.log(error);
+			}
+		}
+
+		fetchData();
+	}, []);
+
 	return (
 		<div className="pageNoPadding ftM">
 			<GroupProfile
@@ -56,7 +66,7 @@ const Members = () => {
 						<Member
 							imageSrc={item.imageSrc}
 							name={item.name}
-							isMento={item.isMento}
+							isMento={item.userType}
 							assignDate={item.assignDate}
 						/>
 					))}

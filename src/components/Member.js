@@ -17,7 +17,7 @@ function Member({ imageSrc, name, isMento, assignDate }) {
 					<span className=" boldTxt" style={gap5px}>
 						{name}
 					</span>
-					<span>{isMento === true ? "멘토" : "멘티"}</span>
+					<span>{isMento === "MENTOR" ? "멘토" : "멘티"}</span>
 				</div>
 				<div className="paddingText unselectedTxt ftTsm">
 					{assignDate}
