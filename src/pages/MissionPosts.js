@@ -40,14 +40,13 @@ const MissionPosts = () => {
 
 		fetchData();
 	}, []);
-	console.log(postsData);
 
 	return (
 		<div className="pageNoPadding ftM">
 			<GroupProfile
 				imageSrc="/img/group_profile.jpeg"
 				groupMajor="소프트웨어학과"
-				groupName="개발을 사랑하는 1팀"
+				groupName="멘토멘티 코딩 1팀"
 				groupMembers="4"
 			/>
 			<GroupIntroduce introducingText="우리는 개발 러버들!" />

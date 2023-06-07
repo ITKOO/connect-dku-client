@@ -19,7 +19,7 @@ function Intro() {
 		<div className="page ftM scrollNone">
 			<div className="intro">
 				<p className="boldTxt textCenter wideLineHeight lightGrayTxt ftLg">
-					환영해요! 지투님
+					환영해요! 지원님
 				</p>
 				<p className="boldTxt textCenter wideLineHeight ftLg">
 					편리하고 빠른 멘토멘티 매칭
