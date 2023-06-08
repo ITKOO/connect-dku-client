@@ -26,13 +26,12 @@ SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 �
 2024년 SW융합대학 멘토멘티 프로그램 운영시 해당 서비스를 사용해 프로그램을 진행할 수 있도록 하는 것이 1차 목표이며,<br> 
 더 나아가 단국대학교에서 진행하는 여러 행사를 진행하고 관리하는 어플리케이션으로 발전시키는것이 최종 목표이다.<br><br>
 
+![스크린샷 2023-04-29 오전 12 49 18](https://user-images.githubusercontent.com/31758135/235194466-ad279033-27c9-448b-92f7-b7734613864a.png)
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 30 49" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/e3ede488-2677-4272-8371-50920560c30e">
 <img width="1225" alt="스크린샷 2023-06-08 오후 4 33 32" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/781ead39-2542-43d7-b56d-14639146c63d">
 
 
 
-![스크린샷 2023-04-29 오전 12 49 18](https://user-images.githubusercontent.com/31758135/235194466-ad279033-27c9-448b-92f7-b7734613864a.png)
-<img width="1225" alt="스크린샷 2023-06-08 오후 4 30 49" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/e3ede488-2677-4272-8371-50920560c30e">
-<hr>
 
 ### 3. 시스템 설계도 및 WBS
 
