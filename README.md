@@ -8,6 +8,9 @@ SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 �
 친목도모를 유도하는 취지의 프로그램이다.<br>
 
 
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 29 12" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/c8cf1e3f-c04c-4839-a426-db389f87c3da">
+
+
 현 프로젝트 팀원 모두 멘토 소속으로, 멘토멘티 프로그램을 진행하며 발생한<br>  
 <ins>"수작업으로 진행되는 미션 체크", "시스템 부재로 인한 카카오톡 사용", "기준 없이 랜덤으로 이뤄지는 멘토멘티 매칭" 등의 문제를 발견했다.</ins><br>
 이러한 문제점을 개선해 편리한 멘토멘티 프로그램을 진행하고자 해당 프로젝트를 기획하게 되었다.<br>
@@ -18,14 +21,32 @@ SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 �
 해당 서비스의 이름은 <ins>"커넥트 DKU"</ins>이며,<br>
 <b>단국대 SW융합대학 학생들을 위한 멘토멘티</b> 앱이다.<br><br>
 
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 29 57" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/7908ecea-4532-4a43-b50f-f3b11a8ffaa5">
+
+
 2024년 SW융합대학 멘토멘티 프로그램 운영시 해당 서비스를 사용해 프로그램을 진행할 수 있도록 하는 것이 1차 목표이며,<br> 
 더 나아가 단국대학교에서 진행하는 여러 행사를 진행하고 관리하는 어플리케이션으로 발전시키는것이 최종 목표이다.<br><br>
 ![스크린샷 2023-04-29 오전 12 49 18](https://user-images.githubusercontent.com/31758135/235194466-ad279033-27c9-448b-92f7-b7734613864a.png)
-
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 30 49" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/e3ede488-2677-4272-8371-50920560c30e">
 <hr>
 
 ### 3. 시스템 설계도 및 WBS
 
+
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 31 20" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/ff972843-0163-4dd1-87b0-039686cbf437">
+
 ![스크린샷 2023-04-29 오전 12 51 15](https://user-images.githubusercontent.com/31758135/235194901-b2802126-1e3e-4417-849b-e5756c19698c.png)
 
 ![스크린샷 2023-04-29 오전 12 51 43](https://user-images.githubusercontent.com/31758135/235194994-196a9cbe-e651-4808-9e69-c90f5c05480e.png)
+
+
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 31 41" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/156288e0-d880-4b13-a27c-44667689b3ab">
+
+
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 32 00" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/ff80d9f5-92af-465b-90cc-2226eb56fff4">
+
+
+### 4. 향후 계획
+
+
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 32 27" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/feec39d2-ad06-4adc-8e61-4cf9093f37fa">
