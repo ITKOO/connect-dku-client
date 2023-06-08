@@ -41,6 +41,10 @@ SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 �
 
 ![스크린샷 2023-04-29 오전 12 51 43](https://user-images.githubusercontent.com/31758135/235194994-196a9cbe-e651-4808-9e69-c90f5c05480e.png)
 
+## 화면 설계
+
+
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 35 03" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/9bb974d8-fa09-4832-a0c8-834578d8292b">
 
 <img width="1225" alt="스크린샷 2023-06-08 오후 4 31 41" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/156288e0-d880-4b13-a27c-44667689b3ab">
 
