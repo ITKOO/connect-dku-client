@@ -21,7 +21,7 @@ SW융합대학 학생회에서는 학생들의 친밀도를 높이기 위한 �
 해당 서비스의 이름은 <ins>"커넥트 DKU"</ins>이며,<br>
 <b>단국대 SW융합대학 학생들을 위한 멘토멘티</b> 앱이다.<br><br>
 
-<img width="1225" alt="스크린샷 2023-06-08 오후 4 29 57" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/7908ecea-4532-4a43-b50f-f3b11a8ffaa5">
+<img width="1225" alt="스크린샷 2023-06-08 오후 4 33 32" src="https://github.com/ITKOO/connect-dku-client/assets/40304565/781ead39-2542-43d7-b56d-14639146c63d">
 
 
 2024년 SW융합대학 멘토멘티 프로그램 운영시 해당 서비스를 사용해 프로그램을 진행할 수 있도록 하는 것이 1차 목표이며,<br> 
